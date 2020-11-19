@@ -238,7 +238,7 @@ class _CropState extends State<Crop> with TickerProviderStateMixin {
             ..scale(s, s, 1),
           child: FittedBox(
             child: widget.child,
-            fit: BoxFit.cover,
+            fit: BoxFit.contain,
           ),
         ),
       );
